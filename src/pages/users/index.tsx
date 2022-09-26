@@ -16,6 +16,7 @@ import {
 import { RiAddLine, RiEditLine } from 'react-icons/ri';
 import Sidebar from '../../components/Sidebar';
 import Header from '../../components/Header';
+import Pagination from '../../components/Pagination';
 
 export default function UserList(): JSX.Element {
   return (
@@ -125,6 +126,7 @@ export default function UserList(): JSX.Element {
               </Tr>
             </Tbody>
           </Table>
+          <Pagination />
         </Box>
       </Flex>
     </Box>
